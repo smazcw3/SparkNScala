@@ -37,10 +37,13 @@ SparkNScala
  5. Go to `Properties` -> `Scala Compiler` -> Select `Use Project Settings`. 
      Select `Scala Installation`: `Fixed Scala Installation 2.11.11 (built-in)`
      
- 6. Go to `Propertis` -> `Java Build Path` -> `Click on Add Folder` -> Select `main` -> Click on `Create New Folder...` -> Type `scala` ->     Click on `Next`
+ 6. Go to `Propertis` -> `Java Build Path` -> Click on `Add Folder` -> Select `main` -> Click on `Create New Folder...` -> Type `scala` ->     Click on `Next`
  
     In the Inclusion and exclusion patterns, click `Add` -> `**/*.scala`, OK, FINISH, OK, APPLY, CLOSE
     
+ 7. In `src/main/scala`, you can create a package `com.experiment.spark`. Inside the package, create the scala object `WordCount` by writing the name as `com.experiment.spark.WordCount`. 
+ 
+ 8. Open `WordCount.scala` and write your word count code and execute it by running as `Scala Application`
    
  
  
