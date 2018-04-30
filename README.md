@@ -1,6 +1,6 @@
 SparkNScala
 -----------
- Setting Up Spark in Scala IDE for Eclipse
+ Setting Up Spark in Scala IDE for Eclipse on Mac
  
  1. Open Scala IDE for Eclipse. Select `File -> New -> Project`. Under `Maven`, select `Maven Project`
  
