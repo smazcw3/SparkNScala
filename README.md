@@ -37,7 +37,7 @@ SparkNScala
  5. Go to `Properties` -> `Scala Compiler` -> Select `Use Project Settings`. 
      Select `Scala Installation`: `Fixed Scala Installation 2.11.11 (built-in)`
      
- 6. Go to `Propertis` -> `Java Build Path` -> Click on `Add Folder` -> Select `main` -> Click on `Create New Folder...` -> Type `scala` ->     Click on `Next`
+ 6. Go to `Properties` -> `Java Build Path` -> Click on `Add Folder` -> Select `main` -> Click on `Create New Folder...` -> Type `scala` ->     Click on `Next`
  
     In the Inclusion and exclusion patterns, click `Add` -> `**/*.scala`, OK, FINISH, OK, APPLY, CLOSE
     
