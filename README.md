@@ -1,6 +1,6 @@
-SparkNScala
------------
- Setting Up Spark in Scala IDE for Eclipse on Mac using Maven
+##SparkNScala
+
+###Setting Up Spark in Scala IDE for Eclipse on Mac using Maven
  
  1. Open Scala IDE for Eclipse. Select `File -> New -> Project`. Under `Maven`, select `Maven Project`
  
@@ -39,7 +39,7 @@ SparkNScala
      
  6. Go to `Properties` -> `Java Build Path` -> Click on `Add Folder` -> Select `main` -> Click on `Create New Folder...` -> Type `scala` ->     Click on `Next`
  
-    In the Inclusion and exclusion patterns, click `Add` -> `**/*.scala`, OK, FINISH, OK, APPLY, CLOSE
+    In the Inclusion and exclusion patterns, click `Add` -> `**/*.scala`, OK, FINISH, OK, APPLY and CLOSE
     
  7. In `src/main/scala`, you can create a package `com.experiment.spark`. Inside the package, create the scala object `WordCount` by writing the name as `com.experiment.spark.WordCount`. 
  
