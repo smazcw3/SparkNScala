@@ -45,5 +45,36 @@
  
  8. Open `WordCount.scala` and write your word count code and execute it by running as `Scala Application`
    
+ ### Setting up for MLlib 
+ 
+ For using MLlib (Apache Machine learning library), we have to add the dependency in the `pom.xml` and our pom.xml will look like below:
+ ```
+ <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spark.mlSample</groupId>
+  <artifactId>sparkMLTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <dependencies>
+	<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
+	<dependency>
+	<groupId>org.apache.spark</groupId>
+	<artifactId>spark-core_2.11</artifactId>
+	<version>2.3.0</version>
+	 </dependency>	
+	 
+	 <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib -->
+	<dependency>
+    	<groupId>org.apache.spark</groupId>
+    	<artifactId>spark-mllib_2.11</artifactId>
+    	<version>2.3.0</version>
+	</dependency>
+	 
+	</dependencies>
+</project>
+ 
+ ```
+ 
+ 
  
  
