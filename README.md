@@ -63,11 +63,11 @@
 	<version>2.3.0</version>
 	 </dependency>	
 	 
-	 <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib -->
+	<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib -->
 	<dependency>
-    	<groupId>org.apache.spark</groupId>
-    	<artifactId>spark-mllib_2.11</artifactId>
-    	<version>2.3.0</version>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-mllib_2.11</artifactId>
+    <version>2.3.0</version>
 	</dependency>
 	 
 	</dependencies>
