@@ -112,7 +112,7 @@ object MLTesting {
       println(stats.mean)
       println(stats.variance)
       
-      //Simple subsampling
+      //Simple Subsampling
       val elements: RDD[Vector] = sc.parallelize(Array(
         Vectors.dense(4.0, 7.0, 13.0),
         Vectors.dense(-2.0, 8.0, 4.0),
